@@ -1,0 +1,76 @@
+git config --global user.name "AbdelkarimBourhaila"
+git config --global user.email bourhaila.abdelkarim@gmail.com
+git config --global --list
+git init
+git status      		Verfier si les dossier sont indexer (Tracker)
+git add nomFichier    	 	Ajouter le fichier/dossie a la partie indexer (Raedy to commited)-- index:zone temporaire
+git add .			Ajouter Tout les fichier/dossie exist dans le chemin a la partie indexer (Raedy to commited)
+
+git reset nomFichier            sup le fichier/dossie a la partie indexer (Raedy to commited)				      ________________
+git status     			Ay3rafhom sdb o aygolik wajd bach ikono commeted						Branch (main/ mstr)
+															      ________________
+															      |	   commit_1    id = SHA-1  contien 4 caracter
+git commit -m "First commit"              pour ajouter les dossier au depot loceal Git					           (Souvgard_1)
+																       |
+																       |
+																   commit_2	id = SHA-1  contien 4 caracter
+/*________Apres la modef
+git status															     ...		...
+git diff / git diff nomFichier  :  connaitre les NV modefecations avant la zone d'index
+git add .
+git diff / git diff nomFichier     il va rien afficher 
+git diff cached /git diff cached nomFichier :  connaitre les NV modefecations DANT la zone d'index
+
+git commit -m "jai ajouter paragragraphe" 
+
+/* _________Affichage de l'historque de git
+
+git log			voir les defferent commit qui exist
+git log -n 1 		voir 1 seul commit
+git show 290060f2e3fad3194bb56a499a65f3cdea65b4f1     		voir les modifectation d'un commit par le code	(SHA-1)
+git show main						voir ls deffernts changement de derniere commit (main/ mstr)
+git checkout 290060f2e3fad3194bb56a499a65f3cdea65b4f1     Retourner a une version presese de commit et obtenir une autre version de commit
+git chechout main                                          Retourner une autre fois a la version finale
+
+
+/* Associer a chaque commit une Tag
+
+git checkout 290060f2e3fad3194bb56a499a65f3cdea65b4f1 		kadkhol lih
+git tag first_commit       					kaddir lih smia
+git tag --delete first_commit    				Mes7o
+git tag                      	 				lister les tag cree ou exist 
+	
+
+/*______________Comment cloner un projet dupui Gethub to locale PC istinsaaakh
+
+git clone Gethub_link
+
+/*_____________________comment puch de locla vers remot
+
+get branch        nbr des branch
+git remote -v
+git push origin main
+
+
+
+/*________________________Supprimer git folder
+
+rm -rf .git
+
+
+Notion important : git - push - pull - clone - fetch - merge.
+
+
+
+_________________________________Finale________________________________
+
+Do like first Gethube commande 
+After that just : dit status - git add - git push
+
+git status
+git add fileName
+git push -u origin main
+
+
+
+

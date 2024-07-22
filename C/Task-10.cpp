@@ -1,16 +1,4 @@
-/*______________summation the digits of integer entered by user_______________*/
-
-
-
-
-
-
-ther is error
-
-
-
-
-
+/*______________Summation of all integer entered by user_______________*/
 
 
 #include <iostream>
